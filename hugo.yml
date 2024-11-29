@@ -1,0 +1,15 @@
+baseURL: ""
+languageCode: en-us
+title: keszhang
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "<title>" 
+    subtitle: ""
+    imageUrl: "img/profile-collated-9.webp" 
+    imageTitle: "" 
+    imageWidth: 420 
+    imageHeight: 420 
+

@@ -1,0 +1,23 @@
+
+# CRLF line endings for Windows-specific files 
+*.txt text eol=crlf
+*.md text eol=crlf
+*.bat text eol=crlf
+*.html text eol=crlf
+*.md text eol=crlf
+
+# LF line endings for code and configuration files
+*.go text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.gitmodules text eol=lf
+*.yml text eol=lf
+
+# Binary files, no line endings changes
+*.jpg binary
+*.png binary
+*.exe binary
+*.webp binary
