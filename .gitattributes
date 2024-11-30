@@ -4,7 +4,6 @@
 *.md text eol=crlf
 *.bat text eol=crlf
 *.html text eol=crlf
-*.md text eol=crlf
 
 # LF line endings for code and configuration files
 *.go text eol=lf

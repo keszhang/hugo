@@ -8,7 +8,7 @@ params:
     enabled: true
     title: "<title>" 
     subtitle: ""
-    imageUrl: "img/profile-collated-9.webp" 
+    imageUrl: "img/profile-collated-3.webp" 
     imageTitle: "" 
     imageWidth: 420 
     imageHeight: 420 
