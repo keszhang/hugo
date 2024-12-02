@@ -1,9 +1,19 @@
+
 baseURL: "https://keszhang.github.io/"
-languageCode: en-us
-title: keszhang
-theme: PaperMod
+languageCode: "en-us"
+title: "keszhang"
+theme: "PaperMod"
+
+relativeURLS: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
+  defaultTheme: auto 
+  disableThemeToggle: false
+
   profileMode:
     enabled: true
     title: "<title>" 
@@ -12,4 +22,17 @@ params:
     imageTitle: "" 
     imageWidth: 420 
     imageHeight: 420 
+    
+
+menu:
+  main:
+    - identifier: stories
+      name: stories
+      url: /stories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
 
